@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # I add the prerequites driectly in the build script
-
+sudo apt update -y && sudo apt upgrade -y
 sudo apt install -y git live-build cdebootstrap devscripts
 
 # If a command fails, make the whole script exit
