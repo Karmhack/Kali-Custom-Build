@@ -1,0 +1,68 @@
+# Live image
+# You always want these:
+kali-linux-core
+kali-desktop-live
+
+# Metapackages
+# You can customize the set of Kali metapackages (groups of tools) to install
+# For the complete list see: https://tools.kali.org/kali-metapackages
+#kali-linux-core
+#kali-tools-top10
+#kali-linux-default
+#kali-linux-large
+#kali-linux-everything
+nmap
+powersploit
+mimikatz
+evil-winrm
+build-essential
+powershell
+responder
+aircrack-ng
+python3
+python2
+gcc
+wireshark
+wordlists
+burpsuite
+gobuster
+ffuf
+hydra
+hashcat
+john
+netcat-traditional
+responder
+git
+make
+curl
+exiftool
+gzip
+zip
+rar
+unrar
+adb
+tar
+nikto
+firefox-esr
+metasploit-framework
+seclists
+sqlmap
+python3-impacket
+bloodhound
+rdesktop
+samba
+smbmap
+smbclient
+ftp
+openssh-client
+openvpn
+webshells
+wpscan
+crackmapexec
+
+# Graphical desktop
+kali-desktop-xfce
+
+# Kali applications
+#<package>
+
