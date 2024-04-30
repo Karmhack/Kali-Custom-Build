@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# I add the prerequites driectly in the build script
+
+sudo apt install -y git live-build cdebootstrap devscripts
+
 # If a command fails, make the whole script exit
 set -e
 # Use return code for any command errors in part of a pipe
