@@ -1,7 +1,6 @@
 # Kali-Custom-Build
 
-Just a simple Iso with just the tools I need.
-
-Firefox addons need to be install running the script located in /opt
+A script to build my own custom Kali live Iso.
 
 Original project : https://gitlab.com/kalilinux/build-scripts/live-build-config
+My Gitlab repo : https://gitlab.com/Karmhack/kali-custom-build/
