@@ -2,4 +2,4 @@
 
 Variant(s) for my custom Kali Build
 
-Original project : https://gitlab.com/kalilinux/build-scripts/live-build-config
+Official Kali Live Build : https://gitlab.com/kalilinux/build-scripts/live-build-config
