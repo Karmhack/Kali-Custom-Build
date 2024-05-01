@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sudo mkdir /opt/PrivEsc
+cd /opt/PrivEsc
+wget -q https://github.com/peass-ng/PEASS-ng/releases/download/20240421-825f642d/winPEASany.exe -O winpeas.exe
+wget -q https://github.com/peass-ng/PEASS-ng/releases/download/20240421-825f642d/linpeas.sh
+cd

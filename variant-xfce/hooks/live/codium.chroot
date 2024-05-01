@@ -1,0 +1,5 @@
+#!/bin/sh
+
+curl -L https://github.com/VSCodium/vscodium/releases/download/1.88.1.24104/codium_1.88.1.24104_amd64.deb -o codium.deb
+sudo dpkg -i codium.deb
+sudo rm codium.deb

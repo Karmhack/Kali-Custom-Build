@@ -1,0 +1,5 @@
+#!/bin/sh
+
+### This script is placed on the user desktop and has to be run to install addons on Firefox
+
+echo -e "#!/bin/sh\n\ncd /tmp\n\nwget -q https://addons.mozilla.org/firefox/downloads/file/3616824/foxyproxy_standard-latest.xpi -O foxyproxy.xpi\nwget -q https://addons.mozilla.org/firefox/downloads/file/3643261/wappalyzer-latest.xpi -O wappalyzer.xpi\nwget -q https://addons.mozilla.org/firefox/downloads/file/4263752/bitwarden_password_manager-latest.xpi -O bitwarden.xpi\nwget -q https://addons.mozilla.org/firefox/downloads/file/3629683/ublock_origin-latest.xpi -O firefox ublock.xpi\n\nfirefox foxyproxy.xpi\nfirefox wappalyzer.xpi\nfirefox bitwarden.xpi\nfirefox ublock.xpi\n\nrm '*.xpi'" > /opt/firefox_addons.sh

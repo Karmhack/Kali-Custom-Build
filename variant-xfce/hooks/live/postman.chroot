@@ -1,0 +1,8 @@
+#!/bin/sh
+
+curl -o postman.tar.gz -L https://dl.pstmn.io/download/latest/linux_64
+sudo tar -xzf postman.tar.gz
+sudo rm postman.tar.gz
+sudo chown -R root:root /Postman
+sudo mv Postman /opt/
+sudo ln -s /opt/Postman/app/Postman /usr/bin/postman
