@@ -2,5 +2,5 @@
 
 A script to build my own custom Kali live Iso.
 
-Original project : https://gitlab.com/kalilinux/build-scripts/live-build-config
+Original project : https://gitlab.com/kalilinux/build-scripts/live-build-config\n
 My Gitlab repo : https://gitlab.com/Karmhack/kali-custom-build/
