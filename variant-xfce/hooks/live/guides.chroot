@@ -1,5 +1,5 @@
 #!/bin/sh
 
 cd /usr/share/
-git clone https://github.com/Karmhack/Guides.git
+sudo git clone https://github.com/Karmhack/Guides.git
 cd
