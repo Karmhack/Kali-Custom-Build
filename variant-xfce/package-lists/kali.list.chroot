@@ -11,6 +11,7 @@ kali-desktop-live
 #kali-linux-default
 #kali-linux-large
 #kali-linux-everything
+python3-pip
 nmap
 powersploit
 mimikatz
