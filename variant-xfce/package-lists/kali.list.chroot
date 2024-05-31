@@ -15,6 +15,7 @@ python3-pip
 nmap
 powersploit
 mimikatz
+dirb
 evil-winrm
 build-essential
 powershell
